@@ -8,11 +8,11 @@ Uses: node
 A simple lambda function that deploys other lambda functions when the zip files representing them are uploaded
 to an s3 bucket.
 
-## Lambda Setup
+## Setting up this Lambda
 
 - Upload or paste the contents of index.js into the lambda inline editor for node.
 - Create an s3 bucket trigger - select bucket name - set suffix to ".zip"
-- Crete the following permission policies for the lambda function.
+- Create and add the following policies to its permissions.
 
 Allow deployment of other lambda functions.
 ```json
